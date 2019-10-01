@@ -23,7 +23,7 @@ After you finish defining the `change` method, run the migrations by running
 ## Adding a Column
 
 The next thing we will do is add a couple of columns to the `students` table we
-just created. To do this, we will create a second migration file. *We cannot add
+just created. To do this, we will create a secondlearn migration file. *We cannot add
 these columns to the existing file.* Let's call our new file
 `02_add_grade_and_birthdate_to_students.rb`. It should live in `db/migrate` just
 like the first migration.
